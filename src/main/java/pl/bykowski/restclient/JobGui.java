@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 
-@Route
+@Route("jobs")
 public class JobGui extends VerticalLayout {
 
     private JobClient jobClient;
